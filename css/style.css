@@ -399,6 +399,19 @@ a:focus {
   background-color: #bc570d;
 }
 
+.thumbnail {
+  width: 100%;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  -webkit-transition: all 0.5s ease;
+}
+
+.thumbnail img:hover {
+  transform: scale(1.5);
+}
+
 /*end header section*/
 /* slider section */
 .slider_section {

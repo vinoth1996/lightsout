@@ -13,7 +13,7 @@
   <meta name="author" content="" />
 
   <title>LightsOut Exposure</title>
-
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -32,9 +32,26 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+  />
+
 </head>
 
 <body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">              
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+          <img src="" class="imagepreview" style="width: 100%;" >
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -475,11 +492,13 @@
         <div class="owl-carousel project_carousel">
           <div class="item single">
             <div class="box">
-              <div class="img-box">
+              <div class="img-box thumbnail">
+                <a data-fancybox="gallery" href="images/single1.jpg">
                 <img src="images/single1.jpg" alt="" />
-                <a href="" class="pin_link">
-                  <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
+                <!-- <a href="" class="pin_link">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a> -->
               </div>
             </div>
 
@@ -487,99 +506,125 @@
 
           <div class="item single">
           <div class="box">
-            <div class="img-box">
-              <img src="images/single2.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/single2.jpg">
+                <img src="images/single2.jpg" alt="" />
               </a>
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>         
 
         <div class="item hdr">
           <div class="box">
-            <div class="img-box">
-              <img src="images/hdr1.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/hdr1.jpg">
+                <img src="images/hdr1.jpg" alt="" />
               </a>
+
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>
         
         <div class="item hdr">
           <div class="box">
-            <div class="img-box">
-              <img src="images/hdr2.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/hdr2.jpg">
+                <img src="images/hdr2.jpg" alt="" />
               </a>
+
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>
 
         <div class="item d2d">
           <div class="box">
-            <div class="img-box">
-              <img src="images/d2d1.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/d2d1.jpg">
+                <img src="images/d2d1.jpg" alt="" />
               </a>
+
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>
 
         <div class="item d2d">
           <div class="box">
-            <div class="img-box">
-              <img src="images/d2d2.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/d2d2.jpg">
+                <img src="images/d2d2.jpg" alt="" />
               </a>
+
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>
 
         <div class="item 360">
           <div class="box">
-            <div class="img-box">
-              <img src="images/3601.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/3601.jpg">
+                <img src="images/3601.jpg" alt="" />
               </a>
+
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>
 
         <div class="item 360">
           <div class="box">
-            <div class="img-box">
-              <img src="images/3602.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/3602.jpg">
+                <img src="images/3602.jpg" alt="" />
               </a>
+
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>
 
         <div class="item flambient">
           <div class="box">
-            <div class="img-box">
-              <img src="images/flambient1.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/flambient1.jpg">
+                <img src="images/flambient1.jpg" alt="" />
               </a>
+
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>
 
         <div class="item flambient">
           <div class="box">
-            <div class="img-box">
-              <img src="images/flambient2.jpg" alt="" />
-              <a href="" class="pin_link">
-                <i class="fa fa-link" aria-hidden="true"></i>
+            <div class="img-box thumbnail">
+              <a data-fancybox="gallery" href="images/flambient2.jpg">
+                <img src="images/flambient2.jpg" alt="" />
               </a>
+              
+              <!-- <a href="" class="pin_link">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a> -->
             </div>
           </div>   
         </div>        
@@ -1039,6 +1084,12 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
   <!-- End Google Map -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+      //
+    });    
+  </script>
 
 </body>
 
